@@ -17,7 +17,7 @@ public class SensorFetcher : MonoBehaviour
 
     async void Start()
     {
-        websocket = new WebSocket("ws://localhost:8080/ws/unity");
+        websocket = new WebSocket("ws://localhost:8081/ws/unity");
 
         websocket.OnOpen += () =>
         {
